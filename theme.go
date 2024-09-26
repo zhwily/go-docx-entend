@@ -29,6 +29,7 @@ func (f *Docx) UseTemplate(template string, tmpfslst []string, tmplfs fs.FS) *Do
 	f.template = template
 	f.tmplfs = tmplfs
 	f.tmpfslst = tmpfslst
+
 	return f
 }
 
